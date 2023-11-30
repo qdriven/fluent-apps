@@ -11,8 +11,6 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@nighttrax/components": "workspace:*",
-    "@nighttrax/foo": "workspace:*",
     "react": "~18.2.0",
     "react-dom": "~18.2.0"
   },
