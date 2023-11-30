@@ -5,6 +5,4 @@
 
 ## API
 
-
 ## static and dynamic rendering
-

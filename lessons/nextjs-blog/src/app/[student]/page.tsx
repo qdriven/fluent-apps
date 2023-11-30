@@ -1,7 +1,5 @@
-
-
-type paramsType = { name: string }
-type searchParamsType = { id: string }
+type paramsType = { name: string };
+type searchParamsType = { id: string };
 // export async function generateStaticParams(){
 //     const names: string[] = ["zia", "zeeshan", "hira"];
 //
@@ -9,16 +7,17 @@ type searchParamsType = { id: string }
 //         name: name,
 //     }));
 // }
-export default function NameNav(
-    {params,searchParams}:{
-        params: { name: string },
-        searchParams: { id: string },
-    }
-){
-    return (
-        <div>
-            Name is {params.name}
-            Search id is {searchParams.id}
-        </div>
-    )
+export default function NameNav({
+  params,
+  searchParams,
+}: {
+  params: { name: string };
+  searchParams: { id: string };
+}) {
+  return (
+    <div>
+      Name is {params.name}
+      Search id is {searchParams.id}
+    </div>
+  );
 }

@@ -10,8 +10,7 @@
   "peerDependencies": {
     "react": "~18.2.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/react": "~18.2.0",
     "react": "~18.2.0",

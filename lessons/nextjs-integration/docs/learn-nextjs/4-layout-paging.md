@@ -2,7 +2,6 @@
 
 Next.js use file-system router, folder to create nested router.
 
-
 ## File-System Router
 
 Routers are based on folder structure
@@ -16,12 +15,14 @@ acem.com/login
 - login
 
 both folders are under app folder, and separate each ui with:
+
 1. Layout.tsx
 2. Page.tsx
 
 ## Create Dashboard Page
 
 - dashboard/page.tsx
+
 ```typescript
 export default function DashBoardPage() {
     return (
@@ -29,11 +30,10 @@ export default function DashBoardPage() {
     )
 }
 ```
+
 - customer and invoice page
 
-visit path: 
+visit path:
+
 - /dashboard/invoice
 - /dashboard/customer
-
-
-

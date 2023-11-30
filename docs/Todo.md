@@ -1,8 +1,8 @@
 # Todo
 
-- [X] setup project
-- [X] first page
-- [X] Routers
-- [X] Group Routers
+- [x] setup project
+- [x] first page
+- [x] Routers
+- [x] Group Routers
 - [] Dynamic Segment
 - [] Generating static params

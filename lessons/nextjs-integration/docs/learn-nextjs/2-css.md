@@ -5,6 +5,7 @@
 - app/ui, global.css or in the app root
 - imported by layout.tsx
 - global.css
+
 ```shell
 @tailwind base;
 @tailwind components;
@@ -15,17 +16,20 @@
 ## Tailwind or CSS Module
 
 - tailwind, add css className as css style
+
 ```html
 <h1 className="text-blue-500">I'm blue!</h1>
 ```
-- 
+
+-
+
 ## clsx utility package to conditional add class name
 
-***clsx*** add css style conditional
+**_clsx_** add css style conditional
 
 ```typescript
 import clsx from 'clsx';
- 
+
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
     <span

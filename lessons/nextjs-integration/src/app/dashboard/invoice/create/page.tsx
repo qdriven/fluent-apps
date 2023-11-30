@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
+import { Metadata } from "next";
 import React from "react";
 import Breadcrumbs from "@/app/ui/invoice/breadcrumbs";
-import {fetchCustomers} from "@/app/lib/dao";
+import { fetchCustomers } from "@/app/lib/dao";
 import Form from "@/app/ui/invoice/create-form";
 
 export const metadata: Metadata = {
-  title: 'Create Invoice',
+  title: "Create Invoice",
 };
 
 export default async function Page() {
@@ -15,10 +15,10 @@ export default async function Page() {
     <main>
       <Breadcrumbs
         breadcrumbs={[
-          { label: 'Invoices', href: '/dashboard/invoice' },
+          { label: "Invoices", href: "/dashboard/invoice" },
           {
-            label: 'Create Invoice',
-            href: '/dashboard/invoice/create',
+            label: "Create Invoice",
+            href: "/dashboard/invoice/create",
             active: true,
           },
         ]}

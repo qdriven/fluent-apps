@@ -1,5 +1,3 @@
-
-
 export default function Page() {
   return (
     <div className="bg-gray-50 p-10">
@@ -14,5 +12,5 @@ export default function Page() {
         <button className="p-10 mx-10 shadow-inner bg-white">Six</button>
       </div>
     </div>
-  )
+  );
 }

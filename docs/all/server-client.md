@@ -83,10 +83,3 @@ Static rendering (default) improves performance because all the rendering work i
 You can opt into dynamic rendering by using a dynamic function or dynamic data fetching in a layout or page. This will cause Next.js to render the whole route dynamically, at request time.
 
 [Read Static Rendering Deals](https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering#static-rendering-default)
-
-
-
-
-
-
-

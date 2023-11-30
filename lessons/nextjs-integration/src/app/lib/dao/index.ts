@@ -1,2 +1,2 @@
-export * from "./fetcher"
-export * from "./actions"
+export * from "./fetcher";
+export * from "./actions";

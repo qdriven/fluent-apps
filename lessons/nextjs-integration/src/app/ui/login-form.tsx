@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import { lusitana } from '@/app/ui/fonts';
+import { lusitana } from "@/app/ui/fonts";
 import {
   AtSymbolIcon,
   KeyIcon,
   ExclamationCircleIcon,
-} from '@heroicons/react/24/outline';
-import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { Button } from './button';
-import { useFormState, useFormStatus } from 'react-dom';
-import {authenticate} from "@/app/lib/dao";
+} from "@heroicons/react/24/outline";
+import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import { Button } from "./button";
+import { useFormState, useFormStatus } from "react-dom";
+import { authenticate } from "@/app/lib/dao";
 
 export default function LoginForm() {
   const [state, dispatch] = useFormState(authenticate, undefined);
@@ -67,7 +67,7 @@ export default function LoginForm() {
           aria-live="polite"
           aria-atomic="true"
         >
-          {state === 'CredentialsSignin' && (
+          {state === "CredentialsSignin" && (
             <>
               <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
               <p className="text-sm text-red-500">Invalid credentials</p>

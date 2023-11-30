@@ -14,7 +14,7 @@ Here's an overview of features you'll learn about in this course:
 - Authentication: How to add authentication to your application using NextAuth.js and Middleware.
 - Metadata: How to add metadata and prepare your application for social sharing.
 
-## Style 
+## Style
 
 1. antd
 2. sass-ui

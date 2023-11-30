@@ -1,11 +1,11 @@
-import { fetchInvoiceById, fetchCustomers } from '@/app/lib/dao';
-import { notFound } from 'next/navigation';
-import { Metadata } from 'next';
+import { fetchInvoiceById, fetchCustomers } from "@/app/lib/dao";
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
 import Breadcrumbs from "@/app/ui/invoice/breadcrumbs";
 import Form from "@/app/ui/invoice/create-form";
 
 export const metadata: Metadata = {
-  title: 'Edit Invoice',
+  title: "Edit Invoice",
 };
 
 export default async function Page({ params }: { params: { id: string } }) {
@@ -23,9 +23,9 @@ export default async function Page({ params }: { params: { id: string } }) {
     <main>
       <Breadcrumbs
         breadcrumbs={[
-          { label: 'Invoices', href: '/dashboard/invoices' },
+          { label: "Invoices", href: "/dashboard/invoices" },
           {
-            label: 'Edit Invoice',
+            label: "Edit Invoice",
             href: `/dashboard/invoices/${id}/edit`,
             active: true,
           },

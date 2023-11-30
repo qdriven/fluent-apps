@@ -19,10 +19,8 @@
     "test:coverage": "vitest --coverage",
     "cleanup": "rimraf .cache .tmp  build coverage dist",
     "lint": "eslint . --ext .ts",
-    "format": "prettier . --write",
     "commit": "cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "prepare": "husky install && husky set .husky/pre-commit 'npx lint-staged' && git add .husky/pre-commit",
     "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky"
   },
   "devDependencies": {

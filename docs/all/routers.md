@@ -20,7 +20,6 @@ name (Segment)
 
 address (Leaf segment)
 
-
 Now lets test this, take the code in step00 and create a directory app/name and a page.tsx file in it.
 
 Edit app/name/page.tsx and make a very simple React component in the file. Note that it is a convention in Next.js that the page in the director is called page.tsx
@@ -50,8 +49,3 @@ Watch the [The Future of the Web: From Cloud to Edge](https://www.youtube.com/wa
 Must Watch [The Future of the Web: From Cloud to Edge](https://www.youtube.com/watch?v=HlXLVb3QCvQ)
 
 Note that all components inside the app directory are [React Server Components](https://www.plasmic.app/blog/how-react-server-components-work) by default, including special files and colocated components. This allows you to automatically adopt Server Components with no extra work, and achieve great performance out of the box.
-
-
-
-
-
