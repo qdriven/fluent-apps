@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/components",
+  "name": "@fluentapp/components",
   "version": "1.0.0",
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
@@ -10,9 +10,7 @@
   "peerDependencies": {
     "react": "~18.2.0"
   },
-  "dependencies": {
-    "@nighttrax/foo": "workspace:*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/react": "~18.2.0",
     "react": "~18.2.0",

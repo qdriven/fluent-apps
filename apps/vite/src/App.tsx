@@ -1,11 +1,9 @@
-import { Button } from "@nighttrax/components/button";
-import { meaningOfLife } from "@nighttrax/foo";
 import React, { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 const App = () => {
-  const [count, setCount] = useState(meaningOfLife);
+  const [count, setCount] = useState();
 
   return (
     <div className="App">
@@ -19,7 +17,6 @@ const App = () => {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <Button />
         <button type="button" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>

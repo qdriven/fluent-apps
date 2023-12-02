@@ -4,3 +4,5 @@ results
 .nyc_output
 *.tsbuildinfo
 .idea/
+.env
+revisited/
