@@ -1,4 +1,4 @@
 {
-  "./**/*.{ts,html,json}": "npm run format",
+  "./**/*.{ts,html}": "npm run format",
   "./**/*.{css,scss}": "npm run format"
 }
